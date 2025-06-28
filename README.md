@@ -18,6 +18,8 @@ Dependencies:
 - `torch` and `torchvision` — Required by YOLO and DeepSORT
 - `numpy` — Numerical operations
 
+Google Drive link(https://drive.google.com/drive/folders/1HDFwT7dVYkuEbYLtHZlKhtxNm_jp9gAA?usp=sharing) it includes model, input, output, report
+
 Summary:
 -Used YOLOv5-based model (best.pt) to detect ball, goalkeeper, player, and referee.
 -Focused only on class 2 (player) for tracking.
