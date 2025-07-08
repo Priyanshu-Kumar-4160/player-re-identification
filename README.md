@@ -12,7 +12,7 @@ How to setup and run the code:
 4. Run the notebook
 
 Dependencies:
-- `ultralytics==8.1.20` — YOLOv5 detection model
+- `ultralytics==8.1.20` — YOLOv11 detection model
 - `deep_sort_realtime==1.3.2` — DeepSORT tracker
 - `opencv-python` — For video processing
 - `torch` and `torchvision` — Required by YOLO and DeepSORT
@@ -21,7 +21,7 @@ Dependencies:
 Google Drive link(https://drive.google.com/drive/folders/1HDFwT7dVYkuEbYLtHZlKhtxNm_jp9gAA?usp=sharing) it includes model, input, output, report
 
 Summary:
--Used YOLOv5-based model (best.pt) to detect ball, goalkeeper, player, and referee.
+-Used YOLOv11-based model (best.pt) to detect ball, goalkeeper, player, and referee.
 -Focused only on class 2 (player) for tracking.
 -Ran detection frame-by-frame on sports video input.
 -Shrunk YOLO bounding boxes by 40% to improve focus and reduce noise.
